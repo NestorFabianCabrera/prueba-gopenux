@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  backend:
+    container_name: backend-gopenux
+    build:
+      context: ./backend
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:3000"
+
+  frontend:
+    container_name: frontend-gopenux
+    build:
+      context: ./
+

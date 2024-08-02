@@ -1,0 +1,66 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #0077cc;
+}
+
+.question-container {
+  margin-top: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.question {
+  margin: 0;
+  color: #333;
+}
+
+.answer {
+  color: green;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-question-button, .show-answer-button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-question-button:hover, .show-answer-button:hover {
+  background-color: #005fa3;
+}
